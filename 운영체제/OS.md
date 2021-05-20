@@ -201,7 +201,25 @@
 
 ![img](./context_switching.png)
 
-
+## IPC (InterProcess Communication : 프로세스간 커뮤니케이션)
++ 여러 프로세스 동시 실행을 통한 성능 개선, 복잡한 프로그램을 위해 프로세스간 통신 필요
++ 프로세스간 공간이 완전 분리
++ IPC 기법
+  + file 사용 (파일을 읽어야 함으로, 실시간으로 데이터 전달이 어려움)
+  + Message Queue
+    + FIFO 정책으로 데이터 전송
+    + 어느 프로세스간이라도 데이터 송수신 가능
+  + Shared Memory
+    + kernel space에 메모리 공간을 만들고, 해당 공간을 변수처럼 쓰는 방식
+    + 해당 메모리 주소를 마치 변수처럼 접근하는 방식
+    + 공유 메모리 key를 가지고, 여러 프로세스가 접근 가능
+  + Pipe
+    + 기본 파이프는 단방향 통신
+    + fork()로 자식 프로세스를 만들었을 때, 부모와 자식간의 통신
+  + Signal
+  + Semaphore
+  + Socket
+  > file 기법을 제외한 나머지는 커널 공간 사용
 
 
 
