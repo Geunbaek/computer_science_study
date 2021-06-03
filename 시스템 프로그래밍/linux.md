@@ -136,8 +136,24 @@
   + 가상 메모리 및 물리 메모리 정보
   + 시스템 리소스 관련 정보
   + 스케줄링 단위
-  
-  
+
+## foreground process / background process
++ foreground process : 쉘에서 해당 프로세스 실행을 명령한 후, 해당 프로세스 수행 종료까지 사용자가 다른 입력을 하지 못하는 프로세스
+  + CTRL + z : foreground process 실행 중지 상태 (suspend 모드)로 변경
+  + 맨 마지막 CTRL + z로 중지된 프로세스는 bg명령으로 background 프로세스로 실행될 수 있음
+  + jobs 명령어 : 백그라운드로 진행 또는 중지된 상태로 있는 프로세스를 보여줌
+  + CTRL + c : 프로세스 작업 취소
++ background process : 사용자 입력과 상관없이 실행되는 프로세스
+  + 쉘에서 해당 프로세스 실행시, 맨뒤에 &를 붙여줌
+  + ex) find / -name '*.py' > list.txt &
+ 
+## 프로세스 상태 확인 (ps)
++ ps [options]
++ options    
+  ![image](https://user-images.githubusercontent.com/74183179/120638656-5afe5080-c4ab-11eb-9c92-e5996f8c7652.png)
++ 데몬 프로세스 (daemon process) : daemon은 악마를 의미. 사용자 모르게 시스템 관리를 위해 실행되는 프로세스로 보통 시스템이 부팅될 때 자동실행
+
+
 
 
     
