@@ -153,6 +153,16 @@
   ![image](https://user-images.githubusercontent.com/74183179/120638656-5afe5080-c4ab-11eb-9c92-e5996f8c7652.png)
 + 데몬 프로세스 (daemon process) : daemon은 악마를 의미. 사용자 모르게 시스템 관리를 위해 실행되는 프로세스로 보통 시스템이 부팅될 때 자동실행
 
+## 리눅스 파일 구조
+![image](https://user-images.githubusercontent.com/74183179/121010910-f441a580-c7d0-11eb-9edd-b4cbc8c3631e.png)
+
+
+
+
+
+
+
+
 
 
 
