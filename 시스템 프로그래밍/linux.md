@@ -200,7 +200,7 @@
 + IEEE(Institute of Eletronic and Electronics Engineers)에서 표준화 시도
 + 리차드 스톨만이 POSIX를 표준안 이름으로 제안
 
-# C 언어 표준
+## C 언어 표준
 + 다양한 C언어 변종
 + ANSI(American National Standards Institute)에서 ANSI C 표준 정립
 > 리눅스는 POSIX와 ANSI C지원            
