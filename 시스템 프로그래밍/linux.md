@@ -181,6 +181,39 @@
     + 캐릭터 디바이스 (Character Device)
       + 키보드, 마우스 등 byte단위 데이터 전송, IO 송수신 속도가 느림
 
+## API
++ 응용 프로그램과 분리된 하위 호환 인터페이스 (시스템 콜 래퍼, 입출력 라이브러리)
+
+
+## C 라이브러리, C 컴파일러
++ 유닉스 C 라이브러리 / 컴파일러 - libc / cc
++ 리눅스 C 라이브러리 / 컴파일러 - GNU libc-glibc / GNU cc- gcc
+
+## ABI
++ 응용 프로그램 바이너리 인터페이스
++ 함수 실행 방식, 레지스터 활용, 시스템 콜 실행, 라이브러리 링크 방식 등
++ ABI가 호환되면 재컴파일 없이 동작
++ 컴파일러, 링커(라이브러리 링크), 툴체인 (컴파일러를 만드는 프로그램) 에서 제공
+
+## POSIX
++ 유닉스 시스템 프로그래밍 인터페이스 표준
++ IEEE(Institute of Eletronic and Electronics Engineers)에서 표준화 시도
++ 리차드 스톨만이 POSIX를 표준안 이름으로 제안
+
+# C 언어 표준
++ 다양한 C언어 변종
++ ANSI(American National Standards Institute)에서 ANSI C 표준 정립
+> 리눅스는 POSIX와 ANSI C지원            
+
+
+
+
+
+
+
+
+
+
 
 
 
